@@ -4,11 +4,6 @@ export const setTextFilter = (text = "") => ({
   text
 });
 
-//sort by date
-export const sortByDate = () => ({
-  type: "SORT_BY_DATE"
-});
-
 //set start date
 export const setStartDate = startDate => ({
   type: "SET_START_DATE",
@@ -19,6 +14,11 @@ export const setStartDate = startDate => ({
 export const setEndDate = endDate => ({
   type: "SET_END_DATE",
   endDate
+});
+
+//sort by date
+export const sortByDate = () => ({
+  type: "SORT_BY_DATE"
 });
 
 //sort by amount
